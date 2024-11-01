@@ -1,3 +1,7 @@
+pub mod records {
+    tonic::include_proto!("records");
+}
+
 fn main() {
-    println!("hello, server")
+    println!("hello, server");
 }
